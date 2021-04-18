@@ -37,8 +37,8 @@ for ano in base[0]:
                 #print(f"Ano: {ano}\nFilme: {base[1][x]}")
                 record.quant_filmes += 1
                 if base[4][x]:
-                    record.filme_vencedor = "{}, {}, {}".format(base[1][x], base[2][x], base[3][x]) 
+                    record.filme_vencedor = "Título: {}. Estúdio: {}. Produtor(es): {}".format(base[1][x], base[2][x], base[3][x]) 
             x += 1
         anos.append(ano)
-        print(f"Ano: {record.ano}\nFilmes: {record.quant_filmes}\nVencedor: {record.filme_vencedor}\n")
+        print(f"Ano: {record.ano}\nFilmes: {record.quant_filmes}\nVencedor:\n {record.filme_vencedor}\n")
         
