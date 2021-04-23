@@ -1,4 +1,4 @@
-## Sobre o Projeto
+## Sobre o Projeto -
 
 Esse projeto é a resolução de um desafio. 
 O desafio era ler um arquivo .csv que contém uma série de filmes com os anos em que foram lançados, o título do filme, o estudio que o realizou, seus produtores e se ele foi vencedor do prêmio naquele ano. 
